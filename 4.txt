@@ -1,0 +1,18 @@
+
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Implement%20DevOps%20Workflows%20in%20Google%20Cloud%20Challenge%20Lab/gsp330-1.sh
+sudo chmod +x gsp330-1.sh
+./gsp330-1.sh
+
+
+Name	                        sample-app-prod-deploy
+Branch Pattern	                ^master$
+Build Configuration File	cloudbuild.yaml
+
+Name	                        sample-app-dev-deploy
+Branch Pattern	                ^dev$
+Build Configuration File	cloudbuild-dev.yaml
+
+
+curl -LO raw.githubusercontent.com/Cloud-Wala-Banda/Labs-Solutions/main/Implement%20DevOps%20Workflows%20in%20Google%20Cloud%20Challenge%20Lab/gsp330-2.sh
+sudo chmod +x gsp330-2.sh
+./gsp330-2.sh
