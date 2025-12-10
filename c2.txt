@@ -1,0 +1,5 @@
+curl -LO raw.githubusercontent.com/Titash-shil/Build-Infrastructure-with-Terraform-on-Google-Cloud-Challenge-Lab-GSP345/refs/heads/main/qwiklab_explorers_gsp345.sh
+
+sudo chmod +x qwiklab_explorers_gsp345.sh
+
+./qwiklab_explorers_gsp345.sh
